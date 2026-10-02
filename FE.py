@@ -469,7 +469,7 @@ class FileEditor:
 
 
 
-def FE(file_path=None, current_theme=False):
+def FE(file_path=None, current_theme=None):
     try:
         if not current_theme:
             from config import THEME, DEFAULT_THEME
